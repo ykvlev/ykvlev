@@ -42,6 +42,25 @@
 
 ## ⭐ Избранные проекты
 
+### 📊 SREB — SQL Rewrite Evidence Benchmark
+
+Датасет исполняемых контрпримеров к SQL-переписываниям, которые предлагают языковые
+модели: **204 семейства запросов** на трёх схемах, **5 712 состояний базы**, **6 моделей**,
+**34 272 проверки**. Публикуется не процент успеха, а конкретное состояние базы, на котором
+результат меняется, и строки, которые это доказывают — с версией СУБД, digest модели и
+хешами входов.
+
+В пилоте все четыре модели, отвечавшие на семейство `union_bag`, сломали его: три заменили
+`UNION ALL` на `OR`, одна навесила `DISTINCT`. Строк стало на одну меньше, запрос при этом
+работает без ошибок.
+
+`SQL` `MySQL` `PostgreSQL` `LLM evaluation` `Python`
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23472642.svg)](https://doi.org/10.5281/zenodo.23472642)
+
+🔗 [GitHub](https://github.com/ykvlev/sql-rewrite-evidence-bench) · [HuggingFace](https://huggingface.co/datasets/ykvlev/sreb) · [Живой лидерборд](https://ykvlev.github.io/sql-rewrite-evidence-bench/leaderboard.html)
+
+
 <table>
 <tr>
 <td width="50%" valign="top">
