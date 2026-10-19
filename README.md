@@ -5,12 +5,12 @@
 
 <div align="center">
 
-<img src="assets/banner.png" alt="Артём Яковлев — Frontend · Fullstack · ML · Cybersecurity" width="100%" />
+<img src="assets/banner.png" alt="Артём Яковлев — ML · Data · Fullstack · Frontend" width="100%" />
 
 <br />
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=800&color=3B82F6&center=true&vCenter=true&width=620&lines=Frontend+%26+Fullstack+%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%87%D0%B8%D0%BA;React+%C2%B7+TypeScript+%C2%B7+Node.js;ML+%26+Data+Science+%D0%BD%D0%B0+Python;%D0%9A%D0%B8%D0%B1%D0%B5%D1%80%D0%B1%D0%B5%D0%B7%D0%BE%D0%BF%D0%B0%D1%81%D0%BD%D0%BE%D1%81%D1%82%D1%8C+%C2%B7+%D0%B7%D0%B0%D1%89%D0%B8%D1%82%D0%BD%D1%8B%D0%B5+%D0%B8%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D1%8B" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=800&color=3B82F6&center=true&vCenter=true&width=620&lines=ML+%26+Data+%D0%BD%D0%B0+Python;SQL+%C2%B7+%D0%B1%D0%B0%D0%B7%D1%8B+%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85+%C2%B7+%D0%B4%D0%BE%D0%BA%D0%B0%D0%B7%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F+%D0%BE%D1%86%D0%B5%D0%BD%D0%BA%D0%B0+LLM;Frontend+%26+Fullstack+%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%87%D0%B8%D0%BA;React+%C2%B7+TypeScript+%C2%B7+Node.js" alt="Typing SVG" />
 </a>
 
 <p>
@@ -28,12 +28,15 @@
 
 ## 👋 Коротко
 
-Разработчик с фокусом на **Frontend и Fullstack**. Основной стек — **TypeScript, React, Node.js**. Люблю формат, где можно глубоко погружаться в продукт: понимать, **зачем** нужна фича, а не просто закрывать тикеты. Отдельно кайфую от чистого UI, анимаций и внимания к деталям.
+Занимаюсь **ML и данными**: на Python собираю системы, где важно не «модель запустилась», а **доказательство, что она не врёт**. Работаю с SQL на уровне оптимизатора и семантики, публикую воспроизводимые датасеты с DOI, провожу измерения так, чтобы их можно было перепроверить.
 
-Параллельно расту в **ML / Data Science** и **кибербезопасности** — на Python собираю рабочие инструменты с нуля: от аудита веб-безопасности до системы обнаружения сетевых вторжений.
+Основной исследовательский фокус — **надёжность языковых моделей на задачах с данными**: что происходит, когда LLM предлагает «оптимизировать» запрос, и как это доказать исполнением, а не процентом успеха.
 
+Второе направление — **фронтенд и fullstack**: **TypeScript, React, Node.js**. Люблю формат, где можно глубоко погружаться в продукт: понимать, **зачем** нужна фича, а не просто закрывать тикеты. Отдельно кайфую от чистого UI, анимаций и внимания к деталям.
+
+- 📊 Автор датасета **[SREB](https://doi.org/10.5281/zenodo.23472642)** — опубликован в Zenodo с DOI, HuggingFace и живым лидербордом
+- 🧪 Воспроизводимость как обязательное требование: хеши входов, digest моделей, версии СУБД, CI на каждый push
 - 🎯 Адаптивные, доступные (a11y) и производительные интерфейсы
-- 🧪 Юнит-тесты, код-ревью, CI/CD
 - 🤝 Плотно работаю с дизайнерами при внедрении UX/UI
 - 📚 Студент НовГУ им. Ярослава Мудрого — Прикладная математика и информатика
 - 🌍 English — B2
@@ -60,6 +63,30 @@
 
 🔗 [GitHub](https://github.com/ykvlev/sql-rewrite-evidence-bench) · [HuggingFace](https://huggingface.co/datasets/ykvlev/sreb) · [Живой лидерборд](https://ykvlev.github.io/sql-rewrite-evidence-bench/leaderboard.html)
 
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### 🧠 ai-db-optimizer
+Интеллектуальная система анализа и оптимизации SQL-запросов с проверкой результатов ИИ: эквивалентность, бенчмарк, Research Mode. MySQL и PostgreSQL, полный CD-конвейер.
+
+`Python` · `FastAPI` · `MySQL` · `PostgreSQL`
+
+[![Code](https://img.shields.io/badge/Code-1E293B?style=flat-square&logo=github&logoColor=white)](https://github.com/ykvlev/ai-db-optimizer)
+
+</td>
+<td width="50%" valign="top">
+
+### 🛡️ NIDS
+Обнаружение сетевых вторжений: трафик → признаки потоков → RandomForest на CICIDS-2017 → API с живым дашбордом и Telegram-алертами.
+
+`Python` · `scikit-learn` · `scapy` · `FastAPI`
+
+[![Code](https://img.shields.io/badge/Code-1E293B?style=flat-square&logo=github&logoColor=white)](https://github.com/ykvlev/nids)
+
+</td>
+</tr>
+</table>
 
 <table>
 <tr>
@@ -112,6 +139,26 @@
 
 ## 🧰 Технологии
 
+**ML / Data / Базы данных**
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
+![pandas](https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-1E293B?style=flat-square)
+![Ollama](https://img.shields.io/badge/Ollama-000000?style=flat-square)
+![Scapy](https://img.shields.io/badge/Scapy-1E293B?style=flat-square)
+
+**Бэкенд и инструменты**
+
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
+![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
+
 **Frontend**
 
 ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
@@ -123,35 +170,21 @@
 ![Tailwind](https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
-
-**Бэкенд и инструменты**
-
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
-![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
 ![Figma](https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=figma&logoColor=white)
-
-**ML / Data Science / Security**
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
-![pandas](https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white)
-![Scapy](https://img.shields.io/badge/Scapy-1E293B?style=flat-square)
 
 ---
 
 ## 📂 Все проекты
 
-### 🛡️ Кибербезопасность / ML
+### 📊 ML / Данные / Исследования
 
 | Проект | Описание | Стек |
 |--------|----------|------|
-| **[NIDS](https://github.com/ykvlev/nids)** | Обнаружение сетевых вторжений на ML: трафик → признаки потоков → RandomForest на CICIDS-2017 → API, живой дашборд и Telegram-алерты | `Python` `scikit-learn` `scapy` `FastAPI` |
-| **[websec-scanner](https://github.com/ykvlev/websec-scanner)** | Пассивный аудит веб-безопасности: заголовки, TLS, cookies, CORS, утечки версий → оценка A–F с объяснением | `Python` `rich` `FastAPI` |
-| **[ru-compliance-scanner](https://github.com/ykvlev/ru-compliance-scanner)** | Проверка сайта на 152-ФЗ: политика, согласия, cookie, HTTPS → что не так, как исправить и какой штраф грозит | `Python` `BeautifulSoup` `FastAPI` |
+| **[SREB](https://doi.org/10.5281/zenodo.23472642)** | Датасет исполняемых контрпримеров к SQL-переписываниям моделей: 204 семейства, 5712 состояний, 6 моделей, 34 272 проверки. DOI + HuggingFace + лидерборд | `Python` `SQL` `MySQL` `PostgreSQL` |
+| **[ai-db-optimizer](https://github.com/ykvlev/ai-db-optimizer)** | Система анализа и оптимизации SQL-запросов с проверкой результатов ИИ | `Python` `FastAPI` `MySQL` `PostgreSQL` |
+| **[NIDS](https://github.com/ykvlev/nids)** | Обнаружение сетевых вторжений на ML: трафик → признаки потоков → RandomForest на CICIDS-2017 → API, дашборд и Telegram-алерты | `Python` `scikit-learn` `scapy` `FastAPI` |
+| **[websec-scanner](https://github.com/ykvlev/websec-scanner)** | Пассивный аудит веб-безопасности: заголовки, TLS, cookies, CORS → оценка A–F с объяснением | `Python` `rich` `FastAPI` |
+| **[ru-compliance-scanner](https://github.com/ykvlev/ru-compliance-scanner)** | Проверка сайта на 152-ФЗ: политика, согласия, cookie, HTTPS → что не так и какой штраф грозит | `Python` `BeautifulSoup` `FastAPI` |
 
 ### 🌐 Fullstack / Web
 
@@ -175,7 +208,7 @@
 
 ## 🔭 Сейчас работаю над
 
-Циклом **фронтенд-пет-проектов** — собираю аккуратные, продуманные интерфейсы и складываю их в [портфолио](https://portfolio-topaz-omega-71.vercel.app) (последний — **[TaskFlow](https://taskflow-xi-vert.vercel.app)**). Параллельно — инструменты по **кибербезопасности и ML** на Python.
+Развитием **SREB**: расширяю покрытие на PostgreSQL, добавляю агентную дорожку (модель с инструментами против одноударной) и готовлю доклад на FOSDEM PGDay 2027. Параллельно — цикл **фронтенд-пет-проектов**: собираю аккуратные интерфейсы и складываю их в [портфолио](https://portfolio-topaz-omega-71.vercel.app) (последний — **[TaskFlow](https://taskflow-xi-vert.vercel.app)**).
 
 ---
 
